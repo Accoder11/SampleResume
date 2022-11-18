@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: palegoldenrod;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: aqua;
+    height: 10vh;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+aside {
+    background-color: blue;
+    height: 80vh;
+    width: 30%;
+}
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 70%;
+}
+nav {
+    height: 10vh;
+    background-color: red;
+}
+article {
+    background-color: pink;
+    height: 70vh;
+}
